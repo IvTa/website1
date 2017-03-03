@@ -12,7 +12,6 @@ body {
   background: url("fh16.jpg") no-repeat center bottom;
   background-size: cover;
   background-attachment: fixed;
-   
 }
 
 .navigation {
@@ -55,6 +54,7 @@ li {
   top: 280px;
   width: 70%;
 }
+
 h1 {
   color: #FCA311;
   font-family: 'Amatic SC', cursive;
@@ -63,6 +63,7 @@ h1 {
   padding: 20px 10px;
   text-align: center;
 }
+
 h2 {
   color: #10e0fc;
   font-family: 'Raleway', sans-serif;
@@ -71,3 +72,87 @@ h2 {
   text-align: center;
 }
 
+h3 {
+  color: #14213D;
+  font-family: 'Abel', sans-serif;
+  font-size: 28px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+h4 {
+  color: #ffffff;
+  font-family: 'Abel', sans-serif;
+  font-size: 24px;
+  text-align: left;
+}
+
+h5 {
+  color: #ffffff;
+  font-family: 'Raleway', sans-serif;
+  font-size: 28px;
+  text-align: left;
+  text-transform: uppercase;
+}
+
+p {
+  color: #333;
+  font-family: 'Raleway', sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+}
+
+a {
+  text-decoration: none;
+}
+
+.btn {
+  background-color: #14213D;
+  color: #FFF;
+  font-family: 'Amatic SC', cursive;
+  font-size: 26px;
+  padding: 14px;
+  background-image: -webkit-linear-gradient(#FFD194, #BC1324);
+}
+
+.services {
+  background: #c6c4c4;
+  box-sizing: border-box;
+  width: 90%;
+  margin: 20px auto;
+  padding: 20px 0px;
+  text-align: center;
+}
+
+.service {
+  display: inline-block;
+  margin: 0px 2% 80px 2%;
+  text-align: center;
+  width: 45%;
+}
+
+.service img {
+  width: 100%;
+}
+
+.blue {
+  color: #14213D !important;
+}
+
+.aboutus {
+  background: url("service.jpg") no-repeat center bottom;
+  background-size: cover;
+  background-attachment: fixed;
+  box-sizing: border-box;
+  width: 90%;
+  margin: 20px auto;
+  padding: 20px 0px;
+  text-align: center;
+}
+
+.about {
+  display: inline-block;
+  margin: 0px 2% 80px 2%;
+  text-align: center;
+  width: 45%;
+}
